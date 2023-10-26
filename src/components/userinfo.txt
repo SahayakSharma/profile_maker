@@ -1,0 +1,111 @@
+
+const themecolor="#190482";
+
+const username="Username";
+const userprofession="Your profession";
+
+//  provide at max 6 skills 
+
+const skillset=["skill 1","skill 2","skill 3","skill 4","skill 5",skill 6"]
+
+const projects=[
+    {
+        name:"Test",
+        description:"this is test project description",
+        link:"/profile.jpg",
+        github:"/"
+    },   
+    {
+        name:"Test",
+        description:"this is test project description",
+        link:"/profile.jpg",
+        github:"/"
+    },   
+    {
+        name:"Test",
+        description:"this is test project description",
+        link:"/profile.jpg",
+        github:"/"
+    },   
+    {
+        name:"Test",
+        description:"this is test project description",
+        link:"/profile.jpg",
+        github:"/"
+    },   
+    {
+        name:"Test",
+        description:"this is test project description",
+        link:"/profile.jpg",
+        github:"/"
+    },   
+]
+
+const certifications=[
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:1
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:2
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:3
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:4
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:5
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:6
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:6
+    },
+    {
+        name:"Test",
+        authority:"test authority",
+        date:"01/01/2021",
+        link:"/",
+        count:6
+    },
+]
+
+
+const links={
+    github:'/',
+    linkedin:'/',
+    email:'/',
+    freelancer:'/',
+}
+
+export {username,userprofession,skillset,projects,themecolor,certifications,links}
